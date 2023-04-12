@@ -1,0 +1,14 @@
+FROTNT END
+
+html
+css
+nootstrap
+javascript 
+react
+
+TAGS
+	<h1></h1> to <h6></h6>
+	<p></p>
+	<small></small>
+	<del></del> - to strike out
+	

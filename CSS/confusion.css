@@ -1,0 +1,31 @@
+#page2{
+    
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-gap: 20px;
+    justify-content: center;
+}
+.p2box{
+    box-shadow: 0px 0px 10px rgb(167, 165, 165);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.p2box p{
+    color: rgb(160, 160, 160);
+}
+.p2box h3{
+    font-family: sans-serif;
+}
+#teamgrid{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-gap: 20px;
+    justify-content: center;
+}
+.chefbox{
+    box-shadow: 0px 0px 10px rgb(167, 165, 165);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}

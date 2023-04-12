@@ -1,0 +1,21 @@
+#box{
+    
+    box-shadow: 1px 2px 3px orchid;
+    padding: 10px;
+    margin: 20px;
+    width: 30%;
+    border-radius: 20px;
+}
+#fix{
+    position:sticky;
+    top:0%;
+    background-color:aquamarine;
+}
+#p{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    border: 1px solid ;
+    border-radius: 30px;
+    padding: 10px;
+}

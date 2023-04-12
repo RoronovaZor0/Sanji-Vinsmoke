@@ -1,0 +1,185 @@
+.boxborder{
+    background-color: white;
+    box-shadow: 0px 0px 3px gray;
+}
+
+#box1a{
+    display: grid;
+    grid-template-columns: 95% 5%;
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+#box1a span{
+    color: rgb(80, 80, 80);
+}
+#box1a button{
+    padding: 5px;
+    padding-left:   0px;
+    padding-right: 0px;
+    background-color: white;
+    border-radius: 3px;
+    
+}
+#box2a{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 10px;
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid grey;
+}
+#box2a i{
+    color: white;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 80px;
+    font-size: 30px;
+}
+.box2a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#icon2{
+    background-color:rgb(194, 47, 76)
+}
+.cardbottom button{
+    color: white;
+    background-color: #3f6ad8;
+    align-items: center;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    margin: 10px;
+    
+}
+.cardbottom{
+    display: flex;
+    justify-content: center;
+    margin-top: 1px;
+}
+#dot{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.dot{
+    width: 17px;
+    height: 17px;
+    border-radius: 50px;
+    background-color: #3f6ad8;
+    position: relative;
+}
+.dot::before{
+    content: '';
+    position: absolute;
+    background-color: white;
+    top: 18%;
+    right: 18%;
+    width: 11px;
+    height: 11px;
+    border-radius: 50px;
+}
+.s2flex{
+    display: flex;
+    gap: 30px;
+}
+.s2box2l1{
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    align-items: center;
+}
+        /* scrollbox */
+.scrollbox{
+    height: 400px;
+    overflow: scroll;
+    /* background-color: blanchedalmond; */
+    color: gray;
+}
+#section2grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px;
+    margin-top: 15px;
+}
+.s2bs{
+    box-shadow: 0px 0px 3px gray;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.redbutton{
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+#verticleline{
+    width: 5px;
+    height: 600px;
+    background-color: rgb(191, 191, 191);
+    align-items: center;
+    border-radius: 20px;
+    position: relative;
+}
+#scrollboxgrid{
+    display: flex;
+    gap: 20px;
+}
+#dotgrid{
+    display: flex;
+    flex-direction: column;
+}
+.linedot{
+    width: 17px;
+    height: 17px;
+    border-radius: 50px;
+    background-color: green;
+    position: absolute;
+}
+.linedot1{
+    width: 17px;
+    height: 17px;
+    border-radius: 50px;
+    background-color: red;
+    position: absolute;
+}
+.linedot2{
+    width: 17px;
+    height: 17px;
+    border-radius: 50px;
+    background-color: yellow;
+    position: absolute;
+}
+#section3{
+    display: flex;
+    /* grid-template-columns: repeat(4,20%); */
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+#section3 div{
+    box-shadow: 0px 0px 3px gray;
+    
+    /* border: 5px; */
+}
+.green{
+    border-bottom: 5px solid green;
+    border-radius: 10px;
+}
+.blue{
+    border-bottom: 5px solid blue;
+    border-radius: 10px;
+}
+.yellow{
+    border-bottom: 5px solid yellow;
+    border-radius: 10px;
+}
+.red{
+    border-bottom: 5px solid red;
+    border-radius: 10px;
+}

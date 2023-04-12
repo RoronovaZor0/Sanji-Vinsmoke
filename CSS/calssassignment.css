@@ -1,0 +1,13 @@
+.box{
+    border-radius: 10px;
+    background-color: blue;
+}
+#nan{
+    text-align: center;
+}
+#img{
+    align-items: baseline;
+    width: 50%;
+    height: 70%;
+    align="left" width="50%" height="70%"
+}

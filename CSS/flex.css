@@ -1,0 +1,12 @@
+#parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#parent div{
+    width: 200px;
+    background-color: burlywood;
+}
+#parent img{
+    width: 100%;
+}

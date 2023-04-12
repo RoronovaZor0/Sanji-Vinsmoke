@@ -1,0 +1,17 @@
+p{
+    color: cadetblue;
+    font-size: 40px;
+    font-family: cursive;
+    font-weight: 500;
+    font-style: italic;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    text-align: justify;
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-shadow: 1px 2px 3px brown;
+    white-space: nowrap;
+    width: 400px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
